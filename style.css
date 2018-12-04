@@ -1,0 +1,87 @@
+
+/*.blankcheck{
+    display: block;
+    margin-left: auto;
+    margin-top: -370px;
+    width: 90%;
+	height: 90%;
+}*/
+
+body {
+height: 100%;
+background-image: url(https://robertkaplinsky.com/wp-content/uploads/2013/09/blank_check_large-1.jpg);
+background-repeat: no-repeat;
+background-size: 100% 96%;
+background-attachment: fixed;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name{
+    display: flex;
+	justify-content: space-between;
+    margin-top:131px;
+    margin-left: 113px;
+    width: 553px;
+	height:50px;
+	font-size: 50px;
+}
+
+#date{
+    display: flex;
+    margin-top:-165px;
+    margin-left: 490px;
+	width: 280px;
+	height:50px;
+	font-size: 50px;
+
+}
+#for{
+	display: flex;
+    margin-top: -26px;
+    margin-left: 40px;
+    width: 378px;
+	height:50px;
+	font-size: 30px;
+	
+}
+#amount{
+    display: flex;
+    margin-top:-1px;
+    margin-left: 700px;
+    width: 147px;
+	height:37px;
+	font-size: 26px;
+	
+}
+
+#written-amount{
+	display: flex;
+    margin-top:-17px;
+    margin-left: 37px;
+    width: 736px;
+	height:30px;
+	font-size: 30px;
+	 display: flex;
+}
+
+#my-signature{
+	display: flex;
+	margin-top: -186px;
+    margin-left: 500px;
+    height: 1%;
+    width: 35%;
+	 display: flex;
+}
+#image-png{
+	display: flex;
+
+	/* top:640px;*/
+	margin-top:94px;
+    margin-left: 503px;
+
+}
+#submit-info{
+	display: flex;
+
+	 margin-top:49px;
+    margin-left: 693px;
+}

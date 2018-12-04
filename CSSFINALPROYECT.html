@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 50px;
+  bottom: 0;
+  height: inherit;
+}
+#backgroundcolororpicture{
+    
+  background-color:white;
+ border-radius: 14px;
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+
+}
+#backgroundcentro{
+ 
+   background: url("https://media.giphy.com/media/1oxczAPMVYvS/giphy.gif") no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.iframeloco{
+   
+    overflow: hidden;
+    padding: 28.20%;
+
+
+}
+#InterLogo{
+     margin-top: -2%;
+     margin-left: 0%;
+    height:45px;
+    width:45px;
+}
+#TopBar{
+  height:48px;
+  width:inherit;  
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large" id="TopBar">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <p><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Interamerican_University_%28emblem%29.gif/220px-Interamerican_University_%28emblem%29.gif" id="InterLogo" /> Malcolm E. Frontera Martínez, &nbsp;#Y00396462,&nbsp;Departamento de Informática</p>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Asignacion1.html" target="ventanilla" >Resumé</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="TESTBOSQUEJO.html" target="ventanilla" >Bosquejo del Curso</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Cheque.html" target="ventanilla" >Forma</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="TablaTemperatura.html" target="ventanilla" >Tabla Temperatura</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://theuselessweb.site/" target="ventanilla" >Useless Website</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://www.lomando.com/" target="ventanilla" >Lomando</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://weirdorconfusing.com/" target="ventanilla" >Weird or Confusing</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://geektyper.com/tegnio/" target="ventanilla" >Hacker Prank Web</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://geekprank.com/hacker/" target="ventanilla" >Hacker Prank Web 2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://gambler500.roundhouseagency.com/" target="ventanilla" >Car Game</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://zbeul.studio/" target="ventanilla" >Detective Mustacho</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_360.html" target="ventanilla" >Virtual Web 1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_nim.html" target="ventanilla" >Virtual Web 2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_ivs.html" target="ventanilla" >Virtual Web 3</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_oil.html" target="ventanilla" >Virtual Web 4</a>
+
+
+
+
+
+
+ 
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64" id="backgroundcentro">
+    <div class="w3-twothird w3-container">
+      <!--<div id="backgroundcolororpicture" >-->
+      <div class="iframeloco">
+      <iframe id="backgroundcolororpicture" src="Introduction.html" name="ventanilla"></iframe>
+      </div>
+        <!--</div>--->
+    </div>
+   
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+	  <a class="w3-button w3-black" href="Introduction.html" target="ventanilla">0</a>
+      <a class="w3-button w3-hover-black" href="Asignacion1.html" target="ventanilla">1</a>
+      <a class="w3-button w3-hover-black" href="TESTBOSQUEJO.html" target="ventanilla">2</a>
+      <a class="w3-button w3-hover-black" href="Cheque.html" target="ventanilla">3</a>
+      <a class="w3-button w3-hover-black" href="TablaTemperatura.html" target="ventanilla">4</a>
+      <a class="w3-button w3-hover-black" href="https://theuselessweb.site/" target="ventanilla">5</a>
+      <a class="w3-button w3-hover-black" href="http://www.lomando.com/" target="ventanilla">6</a>
+      <a class="w3-button w3-hover-black" href="https://weirdorconfusing.com/" target="ventanilla">7</a>
+	  <a class="w3-button w3-hover-black" href="http://geektyper.com/tegnio/" target="ventanilla">8</a>
+	  <a class="w3-button w3-hover-black" href="https://geekprank.com/hacker/" target="ventanilla">9</a>
+	  <a class="w3-button w3-hover-black" href="http://gambler500.roundhouseagency.com/" target="ventanilla">10</a>
+	  <a class="w3-button w3-hover-black" href="https://zbeul.studio/" target="ventanilla">11</a>
+	  <a class="w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_360.html" target="ventanilla">12</a>
+	  <a class="w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_nim.html" target="ventanilla">13</a>
+	  <a class="w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_ivs.html" target="ventanilla">14</a>
+	  <a class="w3-button w3-hover-black" href="https://www.tantrumlab.com/vrw_oil.html" target="ventanilla">15</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Información de Contacto:&nbsp;malcolmfrontera95@gmail.com,&nbsp;<a href="https://github.com/malcolmfrontera" target="_blank">https://github.com/malcolmfrontera</a></p> </h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://github.com/malcolmfrontera" target="_blank">https://github.com/malcolmfrontera</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
